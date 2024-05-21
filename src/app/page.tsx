@@ -1,11 +1,9 @@
-import ErrorPage from "./error";
+import HeroComponent from "@/components/hero/hero-component";
 
 export default function Home() {
   return (
     <main className="">
-      <h1>Coming...!</h1>
-      <ErrorPage/>
-
+      <HeroComponent />
     </main>
   );
 }
